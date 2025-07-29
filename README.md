@@ -10,6 +10,8 @@ Microsoft does not plan to address the identified bugs immediately:
 
 As of May 2025, most of the bugs to crash Defender (`MsMpEng.exe`) are unpatched and can be abused to execute otherwise blocked malicious actions. Some of them do not crash without PageHeap. Details are described on the [IG-Labs Blog](https://labs.infoguard.ch/posts/attacking_edr_part4_fuzzing_defender_scanning_and_emulation_engine/#results)
 
+**Update:** Shortly after this repository was published, all bugs were fixed silently.
+
 > [!CAUTION]
 > The fuzzing was seeded with real Malware from VX-Underground. Therefore, the files in `Crashes` will contain parts of it and you should be careful.
 
